@@ -19,7 +19,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 ## Uncomment this to disable output compression
 # $wgDisableOutputCompression = true;
 
-$wgSitename = "GachiWiki";
+$wgSitename = "WIKI";
 
 ## The URL base path to the directory containing the wiki;
 ## defaults for all runtime URL paths are based off of this.
@@ -101,14 +101,14 @@ $wgShellLocale = "C.UTF-8";
 # Site language code, should be one of the list in ./languages/data/Names.php
 $wgLanguageCode = "ru";
 
-$wgSecretKey = "503428787726ba2b8ee36cc92cdb4f4ab7280dd6e4de5d473b69d09de6cf745c";
+$wgSecretKey = "1fed6ccddda51b09c3d80a9d642e1ebd9071d5ca9cfdadc2027a15019c8891c3";
 
 # Changing this will log out all existing sessions.
 $wgAuthenticationTokenVersion = "1";
 
 # Site upgrade key. Must be set to a string (default provided) to turn on the
 # web installer while LocalSettings.php is in place
-$wgUpgradeKey = "8a66b978c415a6c3";
+$wgUpgradeKey = "517ad4c562fba073";
 
 ## For attaching licensing metadata to pages, and displaying an
 ## appropriate copyright notice / icon. GNU Free Documentation
@@ -134,4 +134,3 @@ wfLoadSkin( 'Vector' );
 
 # End of automatically generated settings.
 # Add more configuration options below.
-
