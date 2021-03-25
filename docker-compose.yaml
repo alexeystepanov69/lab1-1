@@ -22,6 +22,7 @@ services:
     image: mariadb
     restart: always
     volumes:
+      - ./backup/backup.sql:/docker-entrypoint-initdb.d/backup.sql
       - my-wiki-db:/var/lib/mysql
     environment:
       # @see https://phabricator.wikimedia.org/source/mediawiki/browse/master/includes/DefaultSettings.php

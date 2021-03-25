@@ -1,0 +1,1 @@
+docker exec lab1-1_database_1 /usr/bin/mysqldump -u wikiuser -p --password=example  my_wiki > backup/backup.sql 
