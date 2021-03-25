@@ -73,7 +73,7 @@ $wgMemCachedServers = [];
 
 ## To enable image uploads, make sure the 'images' directory
 ## is writable, then set this to true:
-$wgEnableUploads = false;
+$wgEnableUploads = true;
 $wgUseImageMagick = true;
 $wgImageMagickConvertCommand = "/usr/bin/convert";
 
@@ -101,14 +101,14 @@ $wgShellLocale = "C.UTF-8";
 # Site language code, should be one of the list in ./languages/data/Names.php
 $wgLanguageCode = "ru";
 
-$wgSecretKey = "20e7a20679f8b8ff30587ee53f2b7e5fdd7baeb3920709f7a5a19209947bb81f";
+$wgSecretKey = "23135eeeab9fd9054572e39409f6d4f5dca5e26adeb0e0989e31add72432b780";
 
 # Changing this will log out all existing sessions.
 $wgAuthenticationTokenVersion = "1";
 
 # Site upgrade key. Must be set to a string (default provided) to turn on the
 # web installer while LocalSettings.php is in place
-$wgUpgradeKey = "aeb8706ff129bd2d";
+$wgUpgradeKey = "e168bd638d16fec2";
 
 ## For attaching licensing metadata to pages, and displaying an
 ## appropriate copyright notice / icon. GNU Free Documentation
